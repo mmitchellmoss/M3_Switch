@@ -24,6 +24,9 @@ public:
     // Methods.
     bool isSwitchPressed();
 
+    // Operator overloads.
+    bool operator==(M3_Switch &s);
+
 
 
 private:
@@ -39,5 +42,8 @@ private:
     void setHighOrLow(int highOrLow);
 
 };
+
+
+
 
 #endif
