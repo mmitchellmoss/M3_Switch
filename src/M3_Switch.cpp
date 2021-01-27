@@ -67,3 +67,6 @@ bool M3_Switch::isSwitchPressed() {
 bool M3_Switch::operator==(M3_Switch &s) {
     return (isSwitchPressed() == s.isSwitchPressed());
 }
+bool M3_Switch::operator==(int i) {
+    return (isSwitchPressed() == i);
+}

@@ -26,6 +26,7 @@ public:
 
     // Operator overloads.
     bool operator==(M3_Switch &s);
+    bool operator==(int i);
 
 
 
