@@ -24,12 +24,7 @@ public:
     // Methods.
     bool isSwitchPressed();
 
-    // Operator overloads.
-    bool operator==(M3_Switch &s);
-    bool operator==(int i);
-
-
-
+ 
 private:
     // Private members.
     int m_switchPin { 0 };
